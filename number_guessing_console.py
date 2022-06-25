@@ -1,4 +1,5 @@
 import random
+import os
 
 random_number = random.randint(0, 999)
 attempts = 3
@@ -21,3 +22,5 @@ while attempts != 0:
         attempts -= 1
         if (attempts == 0):
             print("No attempts left, try again later")
+
+os.system("pause")
