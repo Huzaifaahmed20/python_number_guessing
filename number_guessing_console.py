@@ -3,8 +3,6 @@ import random
 random_number = random.randint(0, 999)
 attempts = 3
 
-print(random_number)
-
 while attempts != 0:
     guessed_number = input("Please guess a number:\n")
     guessed_number = int(guessed_number)

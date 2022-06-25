@@ -2,7 +2,6 @@ import random
 from tkinter import *
 
 random_number = random.randint(0, 999)
-print(random_number)
 
 root = Tk()
 root.geometry('500x500')
